@@ -1,0 +1,11 @@
+name: 第一个workflow
+on: push
+jobs:
+build:
+name:workflow
+runs-on: ubuntu-latest
+steps:
+-name:My first workflow
+uses:
+with:
+id:hello
