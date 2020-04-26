@@ -1,5 +1,5 @@
 name: 第一个workflow
-on: push
+on: [push]
 jobs:
 build:
 name:workflow
